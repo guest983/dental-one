@@ -1,0 +1,246 @@
+ 
+   @media(max-width:575px) {
+    .image-mobile {
+        display: none;
+    }  
+    .fa-solid, .fas {
+        color: aliceblue;
+        box-shadow: none;
+    }
+    li.nav-item {
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .banner-content {
+        margin-top: 2vh;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .banner-content p {
+        width: 80%;
+        margin: auto;
+    } 
+    /* product overview */
+
+ .product span::after {
+    right: 15px;
+}
+
+.product span::before {
+    left: -15px;
+}
+.icon {
+    margin-bottom: 35px;
+}
+
+.mobile.offset-1 {
+    width: 50%;
+    margin: auto;
+}
+.mobile-content {
+    text-align: center;
+}
+.mobile-content span::before {
+    left: 0;
+    top: -8vh;
+}
+.mobile-content span::after {
+    right: 0;
+    top: -8vh;
+}
+.mobile-content p {
+    margin: auto;
+}
+.mobile-icons {
+    width: 50%;
+    margin: auto;
+}
+.customization {
+    text-align: center;
+}
+.offset-2 {
+    margin-left: 0px;
+}
+.custom h2 {
+    font-size: 2rem;
+}
+.custom span::before {   
+    left: 0vh;
+    top: -7vh;
+}
+.custom span::after {
+    right: 0vh;
+    top: -7vh;
+}
+.custom p {
+    width: 80%;
+    margin: auto;
+}
+.i-phone {
+    width: 70%;
+    margin: auto;
+}
+.price-table {
+    margin: 20px;
+}
+.pricing-content span::before {
+    content: "";
+    position: absolute;
+    left: 0vh;
+    width: 45%;
+    height: 100%;
+    background-color: #00aaff;
+    border-radius: 50px;
+    transition: 0.8s ease-in-out;
+    top: -2vh;
+}
+.pricing-content span::after {
+    content: "";
+    position: absolute;
+    right: 0vh;
+    width: 45%;
+    height: 100%;
+    background-color: #00aaff;
+    border-radius: 50px;
+    transition: 0.8s ease-in-out;
+    top: -2vh;
+}
+.review p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.review{
+    margin-top: 0px;
+}
+.client-image{
+    margin-left: 25px;
+}
+.client-detail {
+    text-align: center;
+}
+.client-info h6 {
+    font-size: 15px;
+}
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.ad-section {
+    height: 27vh;
+}
+.advertisement p {
+    font-size: 16px;
+    font-family: raleway;
+    text-align: center;
+}
+.ad-buttons {
+    margin-top: 5vh;
+    text-align: center;
+    margin-left: 40px;
+}
+.features {
+    font-size: 12px;
+    padding: 7px 15px;
+}
+.download {
+    font-size: 12px;
+    padding: 8px 15px;
+   
+}
+.form {
+    width: 75%;
+    bottom: -65vh;
+}
+.contact-icon {
+    margin-top: 15px;
+} 
+
+/* CSS MEDIA QUERY 425PX */
+
+}
+@media(max-width:425px) {
+    .header h1 {
+        font-size: 1.5rem;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+    /* RESPONSIVE MEDIA QUERY 375 PX  */
+
+    @media(max-width:375px) {
+        .btn {
+            margin-top: 3px;
+            /* padding: 0px; */
+        }
+        .btn-one {
+            font-size: 11px;
+            padding: 6px 8px;
+        }
+        .btn-two {
+            font-size: 11px;
+            padding: 6px 8px;
+        }
+       
+    }
+
+@media(max-width:320px) { 
+    .header h1 {
+        font-size: 1.2rem;
+    }
+    .banner-content p {
+        width: 100%;
+        margin: auto;
+    } 
+    .btn {
+        margin-top: 10px;
+        display: flex;
+    }
+    .ad-buttons {
+        display: contents;
+       
+    }
+    .offset-1 {
+    margin-left: 0px; 
+    }
+    p.text-light {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    button.features {
+        margin-left: 15px;
+    }
+    /* ORDER NOW */
+    .btn {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* OWL CARAOUSEL */
+   
+    .client-image {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .client-detail {
+        margin-left: 7px;
+    }
+    .client-info h6 {
+    font-size: 12px;
+    }
+
+}
